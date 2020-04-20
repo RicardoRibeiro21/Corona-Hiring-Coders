@@ -1,0 +1,89 @@
+/* Estilização referente à página index */
+
+* {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.578)
+}
+
+/* Estilização da div menu */
+
+.menu {
+    width: 98vw;
+    height: 40px;
+    display: flex;
+}
+
+.menu img {
+    width: 15%;
+    margin-left: 5%;
+}
+
+nav {
+    width: 65%;
+    height: 100%;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-left: 10%;
+    font-size: 1.2em;
+    width: 30%;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: unset;
+    color: rgba(0, 0, 0, 0.377);
+}
+
+.menu li:hover {
+    cursor: pointer;
+}
+
+.menu a:hover {
+    color: rgb(70, 184, 3);
+    opacity: 0.6;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.links-noticias {
+    width: 85%;
+}
+
+.links-noticias a {
+    text-decoration: none;
+    color: rgba(0, 0, 103, 0.789);
+}
+
+.links-noticias a:hover {
+    color: rgb(70, 184, 3);
+    transition: 0.8s;
+}
+
+hr {
+    border-color: rgba(0, 4, 83, 0.585);
+    width: 90%;
+    margin-right: 15%;
+}
